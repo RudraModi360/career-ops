@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 0.6in; }
+        body { font-family: 'Helvetica', sans-serif; line-height: 1.4; color: #1a1a1a; margin: 0; padding: 0; }
+        
+        .header { text-align: center; margin-bottom: 20px; }
+        .header h1 { margin: 0; font-size: 24px; text-transform: uppercase; letter-spacing: 2px; }
+        .header .contact { font-size: 12px; color: #333; margin-top: 5px; }
+        .header .contact span { margin: 0 5px; }
+
+        h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin: 15px 0 8px 0; border-bottom: 1px solid #333; padding-bottom: 2px; }
+        
+        .entry { margin-bottom: 10px; break-inside: avoid; }
+        .entry-header { display: flex; justify-content: space-between; font-weight: bold; font-size: 13px; }
+        
+        ul { margin: 3px 0; padding-left: 18px; font-size: 12px; }
+        li { margin-bottom: 2px; }
+        
+        .skills-list { font-size: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Rudra Modi</h1>
+        <div class="contact">
+            (+91) 9712193880 <span>|</span> <a href="https://www.rmodi.in">www.rmodi.in</a> <span>|</span> 
+            <a href="https://github.com/RudraModi360">GitHub: /RudraModi360</a> <span>|</span> <a href="https://linkedin.com/in/rudra-modi">LinkedIn: /rudra-modi</a>
+        </div>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skills-list">
+        <div>❖ Machine Learning Algorithms</div>
+        <div>❖ Deep Learning (TensorFlow, PyTorch)</div>
+        <div>❖ Large Language Model (LLM) Development</div>
+        <div>❖ Generative AI Applications</div>
+        <div>❖ API Development (FastAPI, Flask)</div>
+    </div>
+
+    <h2>Education</h2>
+    <div class="entry">
+        <div class="entry-header"><span>AI & ML Engineering | L. D. College of Engineering</span><span>CGPA: 8.60 | 2026</span></div>
+        <div style="font-size: 12px;">XII (GSEB) | Heaven School, Vadodara | 84.0% | 2022</div>
+        <div style="font-size: 12px;">X (GSEB) | Sardar Vallabhbhai Viddhyalaya, Vadodara | 87.0% | 2020</div>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="entry">
+        <div class="entry-header"><span>AI/ML Engineer | Tecblic Pvt Ltd</span><span>Jul 2025 – Jul 2026</span></div>
+        <ul>
+            <li>Led AI development for an OCR-based system, collaborating with cross-functional teams to design and implement a secure, scalable architecture.</li>
+            <li>Configured CI/CD, scaled multi-region high-availability systems with Kubernetes, and managed end-to-end data pipelines using DBT, MySQL, FastAPI, BigQuery, and proprietary tools.</li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="entry-header"><span>AI Developer | Freelance Work</span><span>Jun 2025 – Jul 2025</span></div>
+        <ul>
+            <li>Developed an end-to-end CSV data analyzer agent for BIOVANTIC, powered by Claude/Azure, automating manual tasks like data fetching, updating, and modification.</li>
+            <li>Integrated multiple MCP servers (Outlook, WhatsApp) to streamline communication and task synchronization.</li>
+        </ul>
+    </div>
+
+    <h2>Academic Projects</h2>
+    <div class="entry">
+        <div class="entry-header"><span>Logicore — Automated Production Agents (Custom Framework)</span></div>
+        <ul>
+            <li>Built a production-grade Python AI agent framework with built-in CI/CD, TUI, and user GUI. Provides an extensible environment for building and deploying scalable AI agents. (Ref: rud_ai_agent)</li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="entry-header"><span>Advanced Image Captioning (State-of-the-Art BLEU Scores)</span></div>
+        <ul>
+            <li>Developed high-performance model (ResNet-101 encoder + Bahdanau Attention + 256-dim LSTM decoder) outperforming baseline models with BLEU-1: 0.61 and BLEU-4: 0.20.</li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="entry-header"><span>MARG — Traffic Optimization System | Modeling & Algo Design</span></div>
+        <ul>
+            <li>Led development of a real-time traffic management system using YOLO and SAHI for vehicle detection, enabling dynamic signal scheduling and low-latency inference.</li>
+        </ul>
+    </div>
+    <div class="entry">
+        <div class="entry-header"><span>GPT-2 from Scratch — Educational AI Model</span></div>
+        <ul>
+            <li>Built a GPT-2 model from scratch using PyTorch to understand transformer architecture, implementing tokenization, model architecture, and training strategies.</li>
+        </ul>
+    </div>
+
+    <h2>Achievements</h2>
+    <div class="entry">
+        <div class="entry-header"><span>Grand Finalist at Smart India Hackathon 2024</span></div>
+        <div style="font-size: 12px;">Developed an AI-powered dynamic traffic management system that adjusts traffic light timings in real-time based on traffic flow and prioritizes emergency vehicles.</div>
+    </div>
+</body>
+</html>
